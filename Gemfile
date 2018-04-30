@@ -36,6 +36,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  # RSpec results formatted as JUnit XML that your CI can read
+  gem 'rspec_junit_formatter'
 end
 group :test do
   gem 'database_cleaner'
